@@ -1,7 +1,3 @@
-Aqui está um exemplo de README para o seu projeto em React Native com Expo, NativeWind e LocalStorage:
-
----
-
 # Projeto React Native com Expo, NativeWind e LocalStorage
 
 Este é um projeto desenvolvido com **React Native** utilizando o **Expo** para facilitar a configuração inicial e o desenvolvimento. O projeto utiliza o **NativeWind** para estilização com base em Tailwind CSS e implementa persistência de dados local utilizando **LocalStorage**.
@@ -30,7 +26,7 @@ Este é um projeto desenvolvido com **React Native** utilizando o **Expo** para 
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/tyagolp/rn-expo-simple.git
    cd seu-repositorio
    ```
 
@@ -46,6 +42,8 @@ Este é um projeto desenvolvido com **React Native** utilizando o **Expo** para 
 3. Inicie o projeto Expo:
    ```bash
    expo start
+   # ou
+   npm run start
    ```
 
 4. Abra o app no emulador ou no dispositivo físico utilizando o Expo Go.
@@ -53,11 +51,13 @@ Este é um projeto desenvolvido com **React Native** utilizando o **Expo** para 
 ### Estrutura do Projeto
 
 ```bash
-├── App.tsx            # Componente principal do aplicativo
-├── components/        # Componentes reutilizáveis
-├── screens/           # Telas principais do aplicativo
 ├── assets/            # Arquivos de mídia como imagens e ícones
-└── utils/             # Funções utilitárias, como as relacionadas ao LocalStorage
+├── components/        # Componentes reutilizáveis
+├── routes/            # Rotas
+├── screens/           # Telas principais do aplicativo
+├── storage/           # Funções relacionadas ao LocalStorage
+└── utils/             # Funções utilitárias
+├── App.tsx            # Componente principal do aplicativo
 ```
 
 ### Configuração do NativeWind
@@ -68,7 +68,6 @@ Exemplo de uso do NativeWind:
 
 ```tsx
 import { View, Text } from 'react-native';
-import { styled } from 'nativewind';
 
 export default function HomeScreen() {
   return (
@@ -103,21 +102,3 @@ const getData = async (key: string) => {
   }
 };
 ```
-
-## Melhorias Futuras
-
-- Implementar integração com API externa.
-- Adicionar testes unitários.
-- Suporte para temas claro e escuro.
-
-## Contribuição
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e enviar pull requests.
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT.
-
----
-
-Isso cobre as informações essenciais para o seu projeto. Você pode ajustar conforme necessário.

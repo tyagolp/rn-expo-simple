@@ -1,1 +1,1 @@
-** Aplicação usando nativewind para fazer uso do tailwind
+**Aplicação usando o nativewind para fazer uso do tailwind para estilizar as interfaces

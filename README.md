@@ -1,6 +1,6 @@
 # Projeto React Native com Expo, NativeWind e LocalStorage
 
-Este é um projeto desenvolvido com **React Native** utilizando o **Expo** para facilitar a configuração inicial e o desenvolvimento. O projeto utiliza o **NativeWind** para estilização com base em Tailwind CSS e implementa persistência de dados local utilizando **LocalStorage**.
+Este é um projeto simples desenvolvido com **React Native** utilizando o **Expo** para facilitar a configuração inicial e o desenvolvimento. O projeto utiliza o **NativeWind** para estilização com base em Tailwind CSS e implementa persistência de dados local utilizando **LocalStorage**.
 
 ## Tecnologias Utilizadas
 

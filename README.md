@@ -1,0 +1,1 @@
+** Aplicação usando nativewind para fazer uso do tailwind
